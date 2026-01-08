@@ -1,17 +1,14 @@
 export default function Recursos() {
   return (
     <section
-      className="min-h-screen bg-cover bg-center bg-no-repeat"
+      className="min-h-screen bg-cover bg-center bg-no-repeat pt-24 sm:pt-28 md:pt-32"
       style={{ backgroundImage: "url('/recursosBg.jpg')" }}
     >
-      {/* Overlay sombreado */}
       <div className="bg-black bg-opacity-60 p-4 sm:p-6 md:p-10 rounded-xl">
-        {/* Título principal */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-red-400 animate-slideIn mt-6 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-red-400 animate-slideIn text-center">
           Recursos e Apoio
         </h2>
 
-        {/* Texto introdutório */}
         <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-8 animate-fadeIn max-w-md sm:max-w-2xl md:max-w-4xl text-white mx-auto text-center">
           <strong>
             Se você ou alguém que conhece está passando por violência doméstica,
@@ -20,9 +17,7 @@ export default function Recursos() {
           </strong>
         </p>
 
-        {/* Lista de recursos */}
         <ul className="space-y-6">
-          {/* Delegacias da Mulher */}
           <li className="p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-slideIn">
             <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
               Delegacias da Mulher
@@ -35,13 +30,13 @@ export default function Recursos() {
             </p>
           </li>
 
-          {/* ONGs de Apoio */}
+          
           <li className="p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-slideIn">
             <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
               ONGs de Apoio
             </h3>
             <p className="text-sm sm:text-base leading-relaxed mb-2">
-              Organizações que oferecem suporte psicológico, jurídico e social às vítimas de violência.
+              Organizações que oferecem suporte psicológico, jurídico e social às vítimas de violência:
             </p>
             <ul className="list-disc pl-6 text-sm sm:text-base leading-relaxed">
               <li>Instituto Maria da Penha – (85) 3038-3636</li>
@@ -51,7 +46,7 @@ export default function Recursos() {
             </ul>
           </li>
 
-          {/* Linhas de Denúncia */}
+          
           <li className="p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-slideIn">
             <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
               Linhas de Denúncia
@@ -63,7 +58,7 @@ export default function Recursos() {
             </ul>
           </li>
 
-          {/* App SOS Mulher */}
+         
           <li className="p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-slideIn">
             <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
               Aplicativo SOS Mulher (PM-SP)
@@ -79,7 +74,7 @@ export default function Recursos() {
             </p>
           </li>
 
-          {/* Legislação */}
+ 
           <li className="p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-slideIn">
             <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
               Legislação e Medidas Protetivas
@@ -102,7 +97,7 @@ export default function Recursos() {
           </li>
         </ul>
 
-        {/* Orientação geral + Referências */}
+
         <div className="mt-10 p-4 sm:p-6 bg-gray-900 bg-opacity-70 text-white rounded-lg shadow-md animate-fadeIn">
           <h3 className="font-semibold text-lg sm:text-xl text-red-300 mb-3">
             Orientação para Mulheres e Sociedade
@@ -115,7 +110,7 @@ export default function Recursos() {
             de denúncia, mas é essencial que todos estejam atentos e engajados.
           </p>
 
-          {/* Referências oficiais */}
+       
           <div className="mt-6 bg-black bg-opacity-40 p-4 rounded-lg">
             <h4 className="font-semibold text-base sm:text-lg text-red-200 mb-2">
               Referências Oficiais
